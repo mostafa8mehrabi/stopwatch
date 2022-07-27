@@ -1,0 +1,98 @@
+@font-face {
+  font-family: calibri;
+  src: url(./Calibri\ Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "calibri";
+}
+body {
+  background-color: #444444;
+  color: #ededed;
+}
+.watch {
+  text-align: center;
+  background-color: #171717;
+  width: 100%;
+  max-width: 80rem;
+  margin: 4rem auto;
+  padding: 1.5rem 2.5rem;
+  border-radius: 1rem;
+}
+.time {
+  font-size: 10rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controls button {
+  cursor: pointer;
+  background-color: #da0037;
+  color: #ededed;
+  margin: 0 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25%;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+button:hover {
+  opacity: 0.5;
+  background-color: #c10b0b;
+}
+/* body {
+  --accent-color: rgb(141, 129, 125);
+  --background-color: white;
+  --text-color: black;
+  --button-text-color: var(--background-color);
+  --transition-delay: 1s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+
+  transition: var(--transition-delay);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark {
+  --accent-color: #d0d066;
+  --background-color: #333;
+  --text-color: white;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.theme-toggle-button {
+  background-color: var(--accent-color);
+  color: var(--button-text-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  border: none;
+  outline: none;
+  transition: var(--transition-delay);
+  transform: scale(1);
+}
+.theme-toggle-button:hover {
+  transform: scale(1.1);
+}
+.theme-toggle-button .icon {
+  margin-right: 0.5em;
+} */
